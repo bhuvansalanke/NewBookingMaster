@@ -1,0 +1,54 @@
+
+.prsnl-profile {
+	font-size: 250px;
+}
+
+.prsnl-cust-list {
+	font-size: 100px;
+}
+
+.chkbox-cons-left {
+	width: 10%;
+}
+
+.extra-padding {
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+.list-group-item-text {
+	word-wrap: break-word;
+}
+
+.dayList  {
+    border-radius: 32px;
+    margin-left: 1%;
+    height: 30px;
+    width: 180px;
+}
+
+@import "compass/css3";
+
+.star-rating {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  
+  .star {
+    padding: 1px;
+    color: #ddd;
+    font-size: 20px;
+    text-shadow: .05em .05em #aaa;
+    list-style-type: none;
+    display: inline-block;
+    cursor: pointer;
+
+    &.filled {
+      color: #fd0;
+    }
+  }
+
+  &.readonly .star.filled {
+    color: #666;
+  }
+}
